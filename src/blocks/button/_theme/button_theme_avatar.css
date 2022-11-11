@@ -1,0 +1,20 @@
+.button_theme_avatar {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    background-image: url(../../../images/edit-avatar.svg);
+    background-size: 26px;
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+}
+
+.button_theme_avatar:hover {
+    opacity: 0.7;
+    transition: opacity 0.4s;
+}

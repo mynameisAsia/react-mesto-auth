@@ -1,0 +1,21 @@
+.button_theme_save {
+    border-radius: 2px;
+    max-width: 100%;
+    width: 358px;
+    height: 50px;
+    margin-top: 38px;
+    background-color: #000000;
+    color: white;
+}
+
+.button_theme_save:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 540px) {
+    .button_theme_save {
+        margin-top: 15px;
+        max-width: 238px;
+        height: 46px;
+    }
+}

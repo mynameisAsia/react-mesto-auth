@@ -1,0 +1,17 @@
+.error {
+    display: block;
+    color: red;
+    font-size: 12px;
+    line-height: 1.25;
+    font-weight: 400;
+    box-sizing: border-box;
+    max-width: 358px;
+    margin-top: 5px;
+    min-height: 23px;
+}
+
+@media screen and (max-width: 540px) {
+    .error {
+        max-width: 238px;
+    }
+}

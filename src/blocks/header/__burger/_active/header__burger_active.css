@@ -1,0 +1,14 @@
+.header__burger_active:nth-child(1) {
+    transform: rotate(45deg) translate(0, 4px);
+    transition: ease-out 0.3s;
+}
+
+.header__burger_active:nth-child(2) {
+    transform: scale(0);
+    transition: ease-out 0.3s;
+}
+
+.header__burger_active:nth-child(3) {
+    transform: rotate(-45deg) translate(0, -4px);
+    transition: ease-out 0.3s;
+}

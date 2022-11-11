@@ -1,0 +1,19 @@
+.auth-form__link {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.auth-form__link:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 399.9px) {
+    .auth-form__link {
+        margin-top: 20px;
+    }   
+}

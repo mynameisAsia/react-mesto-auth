@@ -1,0 +1,15 @@
+.button_theme_like {
+    background-image: url(../../../images/like.svg);
+    background-size: contain;
+    background-color: transparent;
+    border-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    align-self: center;
+    width: 24px;
+    height: 21px;
+}
+
+.button_theme_like:hover {
+    opacity: 0.5;
+}

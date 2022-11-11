@@ -1,0 +1,26 @@
+.header__menu {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-decoration: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.header__menu:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 399.9px) {
+    .header__menu {
+        margin-top: 5px;
+        font-size: 14px;
+    }   
+}
+
+@media screen and (max-width: 355px) {
+    .header__menu {
+        margin-right: 30px;
+    }   
+}

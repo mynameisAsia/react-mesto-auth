@@ -1,0 +1,16 @@
+.popup__infotitle {
+    margin: 32px auto 23px;
+    width: 358px;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 900;
+    text-align: center;
+}
+
+@media screen and (max-width: 540px) {
+    .popup__infotitle {
+        margin: 40px auto 25px;
+        width: 244px;
+        font-size: 20px;
+    }
+}

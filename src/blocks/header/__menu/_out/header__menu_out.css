@@ -1,0 +1,9 @@
+.header__menu_out {
+    color: #A9A9A9;
+}
+
+@media screen and (max-width: 618px) {
+    .header__menu_out {
+        display: none;
+    }
+}

@@ -1,0 +1,27 @@
+.auth-form__input {
+    margin-top: 30px;
+    padding-bottom: 7px;
+    width: 358px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 14px;
+    line-height: 1.21;
+    font-weight: 400;
+    color: white;
+    outline: none;
+}
+
+.auth-form__input:first-of-type {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 399.9px) {
+    .auth-form__input {
+        width: 260px;
+    }
+
+    .auth-form__input:first-of-type {
+        margin-top: 40px;
+    }
+}

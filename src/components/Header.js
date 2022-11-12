@@ -2,6 +2,7 @@ import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import headerLogo from '../images/logo.svg';
 import MobileHeader from './MobileHeader';
+import MenuBurger from './MenuBurger';
 
 function Header({ email, onLogout, isBurgerClicked, openMobileMenu }) {
     const location = useLocation();
@@ -31,11 +32,10 @@ function Header({ email, onLogout, isBurgerClicked, openMobileMenu }) {
                     <Link className="header__menu header__menu_out" to="/sign-in" onClick={onLogout}>
                         Выйти
                     </Link>
-                    <div className={`header__burger-menu ${isBurgerClicked && 'header__burger-menu_active' }`} onClick={openMobileMenu}>
-                        <div className={`header__burger ${isBurgerClicked && 'header__burger_active' }`}></div>
-                        <div className={`header__burger ${isBurgerClicked && 'header__burger_active' }`}></div>
-                        <div className={`header__burger ${isBurgerClicked && 'header__burger_active' }`}></div>
-                    </div>
+                    <MenuBurger 
+                        isBurgerClicked={isBurgerClicked}
+                        openMobileMenu={openMobileMenu} 
+                    />
                 </div>
             )}
         </header>

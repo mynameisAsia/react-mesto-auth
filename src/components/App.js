@@ -218,6 +218,7 @@ function App() {
             .then(() => {
                 setCards(cards.filter((currentCard) => currentCard._id !== card._id && currentCard));
                 closeAllPopups();
+                setIsLoading(false);
             })
             .catch((err) => console.log(err))
     }
